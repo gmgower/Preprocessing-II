@@ -175,8 +175,18 @@ img {
   padding: 2rem 0;
   border-bottom: 1px dashed black;
 }
+@media ( max-width: 500px ) {
+  .nav-section {
+    flex-direction: column;
+    color: red;
+  }
+}
+.nav-section h1 {
+  margin: 0 auto;
+}
 .nav-section nav {
   padding: 1rem;
+  margin: 0 auto;
 }
 .nav-section nav a {
   text-decoration: none;

@@ -6,14 +6,26 @@
   padding: 2rem 0;
   border-bottom: 1px dashed black;
 
-    nav  {
+  @media @mobile {
+    flex-direction: column;
+    color: red;
+  }
+  
+  h1 {
+    margin: 0 auto;
+  }
+
+  nav {
+    padding: 1rem;
+    margin: 0 auto;
+
+    a {
+      text-decoration: none;
       padding: 1rem;
-      
-      a {
-        text-decoration: none;
-            padding: 1rem;
-            font-size: 1.8rem;
-            color: @font-color;
-      }      
+      font-size: 1.8rem;
+      color: @font-color;
     }
+  }
 }
+
+
