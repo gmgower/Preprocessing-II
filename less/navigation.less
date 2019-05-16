@@ -2,17 +2,21 @@
 .nav-section {
   display: flex;
   justify-content: space-between;
-  margin: 3.4rem 0;
-  padding: 2rem 0;
-  border-bottom: 1px dashed black;
+  margin: 3.4rem 0 0;
+  padding: 2rem 0 0;
 
   @media @mobile {
     flex-direction: column;
     color: red;
   }
-  
+
   h1 {
     margin: 0 auto;
+  }
+
+  .border {
+    width: 100%;
+   border-bottom: #C0C0C0 dashed 2px;
   }
 
   nav {
@@ -25,7 +29,7 @@
       font-size: 1.8rem;
       color: @font-color;
     }
+
+
   }
 }
-
-
