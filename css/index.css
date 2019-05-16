@@ -183,10 +183,6 @@ img {
 .nav-section h1 {
   margin: 0 auto;
 }
-.nav-section .border {
-  width: 100%;
-  border-bottom: #C0C0C0 dashed 2px;
-}
 .nav-section nav {
   padding: 1rem;
   margin: 0 auto;
@@ -196,6 +192,10 @@ img {
   padding: 1rem;
   font-size: 1.8rem;
   color: #212529;
+}
+.border {
+  display: flex;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .footer {
   width: 100%;
