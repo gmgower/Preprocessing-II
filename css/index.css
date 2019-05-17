@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media ( max-width: 500px ) {
+  .container {
+    max-width: 90%;
+  }
+}
 .nav-section {
   display: flex;
   flex-direction: row;
@@ -185,9 +190,16 @@ img {
 @media ( max-width: 500px ) {
   .nav-section .nav-text {
     max-width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     color: red;
     padding: 0;
+  }
+  .nav-section .nav-text h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-section .nav-text nav {
+    margin: 0 auto;
   }
 }
 .nav-section nav {
