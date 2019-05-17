@@ -184,22 +184,22 @@ img {
 .nav-section .nav-text {
   width: 800px;
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 4rem;
   justify-content: space-between;
 }
 @media ( max-width: 500px ) {
   .nav-section .nav-text {
     max-width: 100%;
     flex-direction: column;
-    color: red;
-    padding: 0;
+    margin: 0;
   }
   .nav-section .nav-text h1 {
     display: flex;
     justify-content: center;
   }
   .nav-section .nav-text nav {
-    margin: 0 auto;
+    margin: 0 auto 1rem;
+    padding: 0;
   }
 }
 .nav-section nav {
@@ -221,6 +221,13 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .header-section img {
+  margin-bottom: 2rem;
+}
+.home .header-section p {
+  padding-bottom: 2rem;
+  border-bottom: #C0C0C0 dashed 2px;
 }
 @media ( max-width: 500px ) {
   .home .header-section h1 {
@@ -280,6 +287,10 @@ img {
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+.home .content-destination {
+  width: 75%;
+  margin: 0 auto 30px;
 }
 @media ( max-width: 500px ) {
   .home .content-destination {
