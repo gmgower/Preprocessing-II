@@ -1,1 +1,19 @@
 // Mixins in here
+.custom-btn(@width: 20rem, @bgColor: @button-bg) {
+  display: block;
+  margin: 0 1rem 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  width: @width;
+  background-color: @bgColor;
+  color: @white;
+
+  // ??
+  // @media @mobile {   
+  //       .custom-btn();
+  // }
+}
