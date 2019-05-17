@@ -170,32 +170,34 @@ img {
 }
 .nav-section {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin: 3.4rem 0 0;
   padding: 2rem 0 0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.nav-section .nav-text {
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 @media ( max-width: 500px ) {
-  .nav-section {
-    flex-direction: column;
+  .nav-section .nav-text {
+    max-width: 100%;
+    flex-direction: row;
     color: red;
+    padding: 0;
   }
 }
-.nav-section h1 {
-  margin: 0 auto;
-}
 .nav-section nav {
-  padding: 1rem;
-  margin: 0 auto;
+  padding: 1rem 0rem 1rem 3rem;
 }
 .nav-section nav a {
   text-decoration: none;
   padding: 1rem;
   font-size: 1.8rem;
   color: #212529;
-}
-.border {
-  display: flex;
-  border-bottom: 2px dashed #C0C0C0;
 }
 .footer {
   width: 100%;
